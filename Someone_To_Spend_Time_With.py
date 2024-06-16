@@ -21,7 +21,7 @@ def print_lyrics():
         for char in line:
             print(colored(char, color), end='', flush=True)
             sleep(char_delay)
-        print('')  # alto de línea después de cada línea 
+        print('') 
         time.sleep(delays[i])
 
 print_lyrics()
